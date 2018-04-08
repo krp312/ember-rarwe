@@ -1,14 +1,13 @@
-import Route from '@ember/routing/route'; 
-import EmberObject from '@ember/object'; 
-import { A } from '@ember/array';
+import Route from '@ember/routing/route';
+import EmberObject from '@ember/object';
 
 let Song = EmberObject.extend({
   title: '',
   band: '',
-  rating: 0
+  rating: 0 
 });
 
-export default Route.extend({ 
+export default Route.extend({
   model() {
     let blackDog = Song.create({
       title: 'Black Dog',

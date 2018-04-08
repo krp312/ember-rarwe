@@ -9,6 +9,7 @@ const Router = EmberRouter.extend({
 Router.map(function() {
   this.route('bands');
   this.route('songs');
+  this.route('betterBands');
 });
 
 export default Router;
